@@ -8,8 +8,8 @@ public class Controller {
         int a;
         int b;
         int result = 0;
+        Scanner sc = new Scanner(System.in);
         while(active) {
-            Scanner sc = new Scanner(System.in);
             System.out.println("Выберете нужное действие:\n 1. Сумма двух чисел \n 2. Вычитание двух чисел \n 3.Умножение двух числе \n 4.Деление двух чисел \n 5.Квадрат числа \n 6.Преобразование в процент \n 7.Возведение в степень числа \n 8.Корень числа \n 9.Большее из двух чисел \n 10.Натуральный логарифм числа \n 0.Выход");
             int menu = sc.nextInt();
             switch (menu) {
